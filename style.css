@@ -1,0 +1,83 @@
+#welcome {
+    height: 1000px;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    z-index: 9;
+}
+
+
+
+.profile {
+    height: 400px;
+    width: 300px;
+    border-radius: 50%;
+
+}
+
+.menu {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    list-style: none;
+    cursor: pointer;
+    color: crimson;
+    z-index: 10;
+
+}
+
+.item {
+    display: inline;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.item:hover {
+    background-color: black;
+    font-size: 22px;
+
+}
+
+#name {
+    font-family: 'Sigmar One', cursive;
+
+}
+
+body {
+    text-align: center;
+
+}
+
+p {
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.3;
+    font-size: 30px;
+}
+
+.line {
+    background-color: black;
+    width: 100px;
+    height: 6px;
+    margin: 8px auto;
+
+
+
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 1.2;
+    
+    
+    
+}
+
+h2 {
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 300;
+    font-family: 'Mate SC', serif;
+    
+}
