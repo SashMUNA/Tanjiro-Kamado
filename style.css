@@ -14,7 +14,7 @@
 }
 
 .menu {
-    position: absolute;
+    position: fixed;
     top: 10px;
     right: 30px;
     list-style: none;
@@ -79,5 +79,10 @@ h2 {
     line-height: 1.2;
     font-weight: 300;
     font-family: 'Mate SC', serif;
+    
+}
+
+html {
+    scroll-behavior: smooth;
     
 }
